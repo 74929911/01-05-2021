@@ -1,0 +1,103 @@
+.main{
+    min-height: 100vh;
+    position: relative;
+
+}
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    opacity: .5;
+    mix-blend-mode: overlay;
+}
+.text{
+    z-index: 2;
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 10px;
+    border-top:2px solid #3498db;
+    border-bottom: 2px solid #2ecc71;
+    border-right: 2px solid #3498db;
+    border-left: 2px solid #2ecc71;
+    background-color: rgb(53, 53, 53);
+}
+body{
+    font-family: sans-serif;
+}
+#contraseña{
+    border:0;
+    background: none;
+    display: block;
+    margin:20px auto;
+    text-align: center;
+    border:2px solid #3498db;
+    padding: 14px 10px;
+    width:200px;
+    outline: none;
+    color:white;
+    border-radius: 24px;
+    transition: .25s;
+}
+#contraseña:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+h1{
+    color:white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.ver_contraseña{
+    border:0;
+    background: none;
+    display: block;
+    margin:20px auto;
+    text-align: center;
+    border:2px solid #3498db;
+    padding: 14px 40px;
+    cursor: pointer;
+    outline: none;
+    color:white;
+    border-radius: 24px;
+    transition: .25s;
+}
+.ver_contraseña:hover{
+    background-color: #3498db;
+}
+.enviar{
+    border:0;
+    background: none;
+    display: block;
+    margin:20px auto;
+    text-align: center;
+    border:2px solid #2ecc71;
+    padding: 14px 40px;
+    cursor: pointer;
+    outline: none;
+    color:white;
+    border-radius: 24px;
+    transition: .25s;
+}
+.enviar:hover{
+background-color:#2ecc71;
+}
+.txt{
+    color:greenyellow;
+    text-align: center;
+}
